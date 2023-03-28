@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="js/login.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="signupFrm">
+        <form action="http://localhost/guvi/php/login.php" method="post" id="loginForm" class="form">
+          <div class="header">
+            <!-- <img src="assets/signup.svg" alt="signup" height="100" width="100"/> -->
+          <h1 class="title">Login</h1></div>
+    
+          <div class="inputContainer">
+            <label for="" class="label">Email</label>
+            <input type="text" class="input" id="email" name="email" placeholder="Email">
+            
+          </div>
+
+          <div class="inputContainer">
+            <label for="" class="label">Password</label>
+            <input type="password" class="input" id="password" name="password" placeholder="Password" >
+            
+          </div>
+              <input type="submit" class="submitBtn" name="submit"/> <br/>
+     
+             <p class="para-2">
+            Dont have an account? <a href="register.html">Sign up Here</a>
+          </p>
+
+
+
+          
+        </form>
+      </div>
+
+</body>
+
+</html>
